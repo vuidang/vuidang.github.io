@@ -1,5 +1,5 @@
 /*
-Fancy Resume / CV 
+Fancy Resume / CV
 Created: 02/02/2010
 By: Catalin Pinte
 Contact Info: pinte_catalin@yahoo.com
@@ -9,19 +9,19 @@ Contact Info: pinte_catalin@yahoo.com
 * {	margin:0; padding:0; outline:0; border:0; }
 
 /* BASIC */
-/*  
-     background 1  :   #a3a8ad url(../img/background-1.png) 0 0 repeat-x; 
-     background 2  :   #a3a8ad url(../img/background-2.png) 0 0 repeat-x; 
-     background 3  :   #333 url(../img/background-3.png) 0 0 repeat-x;  
+/*
+     background 1  :   #a3a8ad url(../img/background-1.png) 0 0 repeat-x;
+     background 2  :   #a3a8ad url(../img/background-2.png) 0 0 repeat-x;
+     background 3  :   #333 url(../img/background-3.png) 0 0 repeat-x;
      background 4  :   #2f597f url(../img/background-4.png) 0 0 repeat-x;
      background 5  :   #173d5f url(../img/background-5.png) 0 0 repeat-x;
 */
 
-body { 
-    background: #a3a8ad url(../img/background-1.png) 0 0 repeat-x; 
-	background-attachment:fixed;  
-	font:14px/24px Arial,Helvetica,sans-serif; 
-	color:#333; 
+body {
+    background: #fafafa 0 0 repeat-x; 
+	background-attachment:fixed;
+	font:14px/24px Arial,Helvetica,sans-serif;
+	color:#333;
 }
 
 #main { width:1020px; margin:auto;	position:relative;	top:20px;  }
@@ -32,7 +32,7 @@ h2 { font-size:25px;color:#333;  }
 h3 { font-size:20px; font-style:italic;  margin-top:0; color:#173D5F; }
 h4 { font-size:16px; font-weight:normal; }
 h5 { font-size:14px; margin-left:10px; display:inline; background:#2F597F; color:#fff;  width:150px; text-align:center; padding: 3px 10px 3px 10px; font-weight:normal; line-height:26px; clear:right;     }
-h5:hover{ background:#173D5E;  } 
+h5:hover{ background:#173D5E;  }
 h6 { line-height:1em; clear:both; font-size:13px; font-weight:bold; font-weight:bold; text-align:left; margin:0; padding:0; }
 
 .cufon-active h1 { padding:0; margin:0; margin-left:219px; font-size:60px; margin-top:-4px;}
@@ -46,7 +46,7 @@ a { color:#333; text-decoration:none; }
 
 #top-content { background:url(../img/top-content.png) 0 0 no-repeat; min-height:270px; width:886px; padding:67px 67px 9px 67px; margin-bottom:0; display:inline-block;}
 #top-content .photo-holder {  padding:10px 10px 4px 10px; background:#f6f6f6; border:solid 1px #d5d5d5; margin-bottom:18px; }
-/* IE7 Fix */ *:first-child+html #top-content .photo-holder { padding-bottom:10px; }  
+/* IE7 Fix */ *:first-child+html #top-content .photo-holder { padding-bottom:10px; }
 #top-content .photo-shaddow { background:url(../img/shaddow.png) no-repeat scroll -2px 100% transparent; width:auto; height:auto; float:left; margin:0 35px 12px 0; overflow:visible;   }
 
 #top-content .top-description { font-family: Arial, Helvetica, sans-serif; font-size:19px; font-weight:normal; margin-top:10px; margin-bottom:15px; }
@@ -74,7 +74,7 @@ a { color:#333; text-decoration:none; }
 
 #middle-content { background:url(../img/middle-content.png) 0 0 repeat-y; height:auto; width:885px; padding:0 67px 25px 68px; margin-top:0}
 #middle-content h3 { margin-top:0; float:left; margin-bottom:0; padding-bottom:0px; }
-#middle-content .description{ clear:both; padding-top:10px; padding-bottom:0; margin-bottom:0; } 
+#middle-content .description{ clear:both; padding-top:10px; padding-bottom:0; margin-bottom:0; }
 
 
 #middle-content ul.list { clear:both; margin:30px 0 45px 45px; list-style:none;  position:relative; border-bottom:1px dashed #afafaf;  }
