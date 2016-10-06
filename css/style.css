@@ -10,7 +10,7 @@
 */
 
 body {
-    background: #fafafa 0 0 repeat-x;
+    background-color: #333 ;
 	background-attachment:fixed;
 	font-size :14px/24px ;
     font-family: Arial, Helvetica, sans-serif;
@@ -123,6 +123,7 @@ font.success {clear:both; line-height:25px; background: url(../img/icons-min.png
 #social #myspace{ background: url("../img/social-icons.png") -431px 0 no-repeat; }
 #social #RSS{ background: url("../img/social-icons.png") -494px 0 no-repeat;}
 
-.top-tag-1,.top-tag-2 {
+.top-tag {
+    color:#fff;
     border-radius: 5px ;
 }

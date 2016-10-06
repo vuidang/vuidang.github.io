@@ -74,8 +74,13 @@ $(document).ready(function(){
 	$('#middle-content ul.list:last-child').css({'margin-bottom':'0'});
 	// random color for toptag class
 	var colors = ['#c55d98', '#ffce57', '#df5151','#41a270','#17365b'];
-	var random_color_1 = colors[Math.floor(Math.random() * colors.length)];
-	var random_color_2 = colors[Math.floor(Math.random() * colors.length)];
-	$('.top-tag-1').css('background',random_color_1) ;
-	$('.top-tag-2').css('background',random_color_2) ;
+
+	$('.top-tag').each(function(index) {
+		var randomNum = Math.floor(Math.random()*colors.length);
+        var random_color = colors[randomNum];
+        $(this).css('background-color',random_color) ;
+		colors.splice(randomNum, 1);
+    });
+
+
 });
