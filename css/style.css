@@ -1,11 +1,3 @@
-/*
-Fancy Resume / CV
-Created: 02/02/2010
-By: Catalin Pinte
-Contact Info: pinte_catalin@yahoo.com
-*/
-
-/* RESET CSS */
 * {	margin:0; padding:0; outline:0; border:0; }
 
 /* BASIC */
@@ -18,7 +10,7 @@ Contact Info: pinte_catalin@yahoo.com
 */
 
 body {
-    background: #fafafa 0 0 repeat-x; 
+    background: #fafafa 0 0 repeat-x;
 	background-attachment:fixed;
 	font:14px/24px Arial,Helvetica,sans-serif;
 	color:#333;
@@ -49,7 +41,7 @@ a { color:#333; text-decoration:none; }
 /* IE7 Fix */ *:first-child+html #top-content .photo-holder { padding-bottom:10px; }
 #top-content .photo-shaddow { background:url(../img/shaddow.png) no-repeat scroll -2px 100% transparent; width:auto; height:auto; float:left; margin:0 35px 12px 0; overflow:visible;   }
 
-#top-content .top-description { font-family: Arial, Helvetica, sans-serif; font-size:19px; font-weight:normal; margin-top:10px; margin-bottom:15px; }
+#top-content .top-description { font-family: Arial, Helvetica, sans-serif; font-size:17px; font-weight:normal; margin-top:10px; margin-bottom:15px; }
 
 #top-content .address { background: url(../img/icons-sprite.png) 0 -473px no-repeat; display:block; overflow: hidden; padding:4px 0 0 35px; margin:0; }
 #top-content .phone { background: url(../img/icons-sprite.png) 0 -62px no-repeat; display:block; overflow: hidden; padding:4px 0 0 35px; margin:0; }
@@ -129,3 +121,7 @@ font.success {clear:both; line-height:25px; background: url(../img/icons-min.png
 #social #flikr{ background: url("../img/social-icons.png") -358px 0 no-repeat; }
 #social #myspace{ background: url("../img/social-icons.png") -431px 0 no-repeat; }
 #social #RSS{ background: url("../img/social-icons.png") -494px 0 no-repeat;}
+
+.top-tag-1,.top-tag-2 {
+    border-radius: 5px ;
+}
