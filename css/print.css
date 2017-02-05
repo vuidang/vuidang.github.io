@@ -28,4 +28,7 @@ ul.list ol li{ list-style-type: decimal; }
 .address, .phone, .mail { margin:0;  padding-bottom:0;}
 .address:before  { content:"Address: "; font-weight:bold; }
 .phone:before  { content:"Phone: ";  font-weight:bold; }
-.mail:before  { content:"e-mail: ";  font-weight:bold; }
+.mail:before  { content:"e-mail: ";  font-weight:bold; 
+    color: #000 ;
+    
+}
